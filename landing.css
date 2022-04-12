@@ -1,0 +1,67 @@
+/*CSS
+Class Code & Name: INFT3000-Capstone
+Team Name: MNM Applications
+Authors:   Matt Gates, Neil Bunyan, Michael Anthony
+*/
+
+
+body{
+    background-color: #0D0A95;
+    
+}
+
+.logo{
+    position: relative;
+    left: 40%;
+    top: 10%;
+    
+
+}
+
+  .content {
+      position: relative;
+      left: 48%;
+  }
+  .button1 {
+    display: inline-block;
+    padding: 0.5em 3em;
+    border: 0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0.3em;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", semibold;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.15s;
+
+  }
+  
+  .button1:hover {
+    color: silver;
+    border-color: silver;
+  }
+
+  .button1:active{
+      color: #BBBBBB;
+      border-color: #BBBBBB;
+  }
+
+
+#theFooter{
+    background-color:#0D0A95;
+    color:#ffffff;
+    font-family: poppins semibold;
+    text-align: right;
+    height:10%;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+    position:absolute;
+    bottom:0%;
+    right:0%;
+    
+    }
+
+

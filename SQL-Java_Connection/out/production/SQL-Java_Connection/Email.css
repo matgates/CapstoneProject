@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background-color:#cccccc;
+}
+
+table{
+    border-spacing: 0;
+}
+
+td{
+    padding: 0;
+}
+
+img{   
+    border: 0;
+}
+
+.main{
+    background-color: #0D0A95;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: poppins semibold;
+    color: #171a1b;
+}
+
+.two-columns{
+    text-align: center;
+    font-size: 0;
+}
+
+.two-columns .column{
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.three-columns{
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 0;
+    padding-top: 15px 0 25px;
+}
+
+.three-columns .column{
+    
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.three-columns .padding{
+    padding: 15px;
+}
+
+.three-columns .content{
+    font-size:15px;
+    line-height: 20px;
+    padding: 0 5px;
+}
+
+.wrapper{
+   width: 100%;
+   table-layout: fixed;
+   background-color: #cccccc;
+   padding-bottom: 60px;
+}
+
+.overlay{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#td1{
+    height: 8px;
+    background-color: #171a1b;
+    
+}
+
+#td2{
+    padding:14px 0 4px;
+}
+
+#td3{
+    padding:0px 62px 10px;
+}
+
+#td4{
+    padding:10px 72px;
+}
+
+
+#table1{
+    width: 100%;
+}
+
+#home{
+    width: 100%;
+    height: 50px;
+}
+
+#socials{
+    width: 30px;
+    height: 30px;
+}
+
+#map {
+    height:500px;
+    width: 600;
+    max-width:100%;
+}
+
+#td5{
+    width: 600px;
+}
+
+
+#table1{
+    width: 100%;
+}
+
+#sharkB{
+    padding-top:10px;
+    
+    width: 130;
+    max-width: 130px;
+}
+
+#info{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#shark{
+    width: 500px;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNM Development Emails</title>
+    <link rel="stylesheet" href="Email.css">
+    <script src="mnmscripts.js"></script>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcrRqELiy-v4acdlnk-U-X3j3iqJXuVXI&libraries=places&callback=initMap&solution_channel=GMP_codelabs_simplestorelocator_v1_a">
+     </script>
+     <style>
+      body{
+        margin: 0;
+        background-color:#cccccc;
+      }
+
+      table{
+          border-spacing: 0;
+      }
+
+      td{
+          padding: 0;
+      }
+
+      img{
+          border: 0;
+      }
+
+      .main{
+          background-color: #0D0A95;
+          margin: 0 auto;
+          width: 100%;
+          max-width: 600px;
+          border-spacing: 0;
+          font-family: poppins semibold;
+          color: #171a1b;
+      }
+
+      .two-columns{
+          text-align: center;
+          font-size: 0;
+      }
+
+      .two-columns .column{
+          width: 100%;
+          max-width: 300px;
+          display: inline-block;
+          vertical-align: top;
+          text-align: center;
+      }
+
+      .three-columns{
+          background-color: #ffffff;
+          text-align: center;
+          font-size: 0;
+          padding-top: 15px 0 25px;
+      }
+
+      .three-columns .column{
+
+          width: 100%;
+          max-width: 200px;
+          display: inline-block;
+          vertical-align: top;
+          text-align: center;
+      }
+
+      .three-columns .padding{
+          padding: 15px;
+      }
+
+      .three-columns .content{
+          font-size:15px;
+          line-height: 20px;
+          padding: 0 5px;
+      }
+
+      .wrapper{
+        width: 100%;
+        table-layout: fixed;
+        background-color: #cccccc;
+        padding-bottom: 60px;
+      }
+
+      .overlay{
+          position: absolute;
+          top: 90%;
+          width: 100%;
+          right: 0;
+          padding: 20px;
+          text-align: center;
+
+      }
+    </style>
+  </head>
+  <body>
+
+    <center class="wrapper">
+      <table class="main">
+        <!--Top-->
+        <tr>
+          <td style="height:10px;background-color:#171a1b;"></td>
+        </tr>
+  </head>
+  <body>
+    
+    
+        <!--Logos-->
+        <tr>
+            <td id="td2">
+              <table id="table1"> 
+                  <tr>
+                    <td class="two-columns">
+                      <table class="column">
+                        <tr>
+                          <td id="td3">
+                            <a href="home.html"><img id="home" src="images/MNM.png" alt="Home"></a>
+                          </td>
+                        </tr>
+                      </table>
+                      <table class="column">
+                        <tr>
+                          <td id="td4">
+                            <a href="#"><img id="socials" src="images/FB.png"></a>
+                            <a href="#"><img id="socials" src="images/Insta.png"></a>
+                            <a href="#"><img id="socials" src="images/Twitter.png"></a>
+                            <a href="#"><img id="socials" src="images/youtube.png"></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+              </table>
+
+            </td>
+        </tr>
+        <!--Banner-->
+        <tr>
+          <td id="td5">
+            <div id="map"></div> 
+          </td>
+        </tr>   
+        <!--Third Section-->
+        <tr>
+          <td>
+            <table id="table1">
+              <tr>
+                <td class="three-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"><img id="sharkB" src="images/sharkB.png"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p id="info">Shark Info</p>
+                              <p>Enter Shark Data from the database</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"><img id="sharkB" src="images/sharkB.png"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p id="info">Shark Info</p>
+                              <p>Enter Shark Data from the database</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"><img id="sharkB" src="images/sharkB.png"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p id="info">Shark Info</p>
+                              <p>Enter Shark Data from the database</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--Fourth Section-->
+                    <tr>
+                      <td id="td6">
+                        <img src="images/underwater.jpg">
+                        <div class="overlay"><img id="shark" src="images/sharkmain.png"></div>
+                      </td>
+                    </tr>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </center>
+       
+  </body>
+</html>

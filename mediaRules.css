@@ -1,0 +1,314 @@
+@media only screen and (max-width: 500px) {
+    /*CSS
+Class Code & Name: INFT3000-Capstone
+Team Name: MNM Applications
+Authors:   Matt Gates, Neil Bunyan, Michael Anthony
+*/
+
+/*All ID rules*/
+
+
+#theBody {
+    background-color: #ffffff;
+    height:62%;
+    width:100%;
+    overflow: scroll;
+}
+
+#MNMlogo{
+    height:80px;
+    float:left;
+}
+
+
+#shark{
+    position: absolute;
+    left: 60%;
+    bottom: 12%;
+    height:10%;
+    width:40%;
+    
+}
+
+#para{
+    position: absolute;
+    bottom: 25%;
+    left: 3%;
+    font-family: poppins semibold, sans-serif;
+    font-size: 18px;
+    color: #0D0A95;
+}
+
+#para2{
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+    font-family: poppins semibold, sans-serif;
+    font-size: 18px;
+    color: #0D0A95;
+}
+
+#theForm{
+    font-family: poppins semibold, sans-serif;
+    color: #0D0A95;
+    position: absolute;
+    left:3%;
+    bottom: 8%;
+
+}
+
+#theHeader{
+    background-color:#0D0A95;
+    color:#ffffff;
+    height:13%;
+    width:100%;
+    padding-bottom: 15px;
+    font-family: Poppins Semibold, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
+
+#theFooter{
+    background-color:#0D0A95;
+    color:#ffffff;
+    text-align: right;
+    height:10%;
+    width:100%;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: underline;
+    position:fixed; 
+    
+    
+}
+
+/*Class rules*/
+.navbar {
+    position: absolute;
+    overflow: hidden;
+    font-family: Poppins semibold, sans-serif;
+    left: 5%;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#1915f8;
+  }
+
+.txt_field{
+    position: relative;
+    width: 90%;
+    
+}
+
+.txt_field input{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    top: 13px;
+    left: 70px;
+}
+
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    color: #0D0A95;
+    font-size: 16px;
+    pointer-events: none;
+    
+}
+
+input[type="submit"]{
+    background-color: #0D0A95;
+    position:relative;
+    top: 5px;
+    padding: 8px 48px;
+    border: 0.16em solid #FFFFFF;
+    margin:0 8px 8px 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", semibold, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+/*Help page*/
+.contactSection{
+    position: absolute;
+    top: 10%;
+    margin-top: 8%;
+    margin-right: 8%;
+    font-family: Poppins Semibold, sans-serif;
+    color:#0D0A95;
+    text-align: center;
+}
+
+.contactSection h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: underline;
+    }
+
+.contactSection textarea{
+    resize: none;
+}
+
+#contactShark{
+    display: none;
+    position: absolute;
+    top:20%;
+    left:2%;
+    height:100px;
+    width:200px;
+}
+
+#contactLogo {
+    position: absolute;
+    top:75%;
+    left:34%;
+    height: 125px;
+    width: 125px;
+}
+
+/*Blog page*/
+#Blog{
+    margin-top: 10%;
+    color:#0D0A95;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom:0%;
+    margin-left:5%;
+    text-decoration-line: underline;
+    font-family: Poppins Semibold, sans-serif;
+
+}
+.blogEntry{
+    position: absolute;
+    margin: 5px;
+    top: 15%;
+    border-style: solid;
+    border-width: 1px;
+    color:#0D0A95;
+}
+#blogEntryOne{
+    float:left;
+    font-size:large;
+    font-weight: bold;
+    font-family: Poppins Semibold, sans-serif;
+}
+#blogAuthorOne{
+    font-size: small;
+    text-decoration-line: underline;
+
+    font-family: Poppins Semibold, sans-serif;
+}
+
+#map {
+    height: 85%;
+    width: 95%;
+    margin-top: 150px;
+}
+
+/*About page*/
+#slogan{
+    position: absolute;
+    color: #0D0A95;
+    top: 15%;
+    font-family: Poppins Semibold, sans-serif;
+    font-size: 40px;
+}
+#slogan2{
+    position: absolute;
+    color: #0D0A95;
+    top: 45%;
+    font-family: Poppins Semibold, sans-serif;
+    font-size: 40px;
+}
+
+#ipsum{
+    position: absolute;
+    color: #0D0A95;
+    top: 20%;
+    font-family: Poppins Semibold, sans-serif;
+    font-size: 20px;
+}
+#ipsum2{
+    position: absolute;
+    color: #0D0A95;
+    top: 50%;
+    font-family: Poppins Semibold, sans-serif;
+    font-size: 20px;
+}
+
+/*Landing Page*/
+
+/*CSS
+Class Code & Name: INFT3000-Capstone
+Team Name: MNM Applications
+Authors:   Matt Gates, Neil Bunyan, Michael Anthony
+*/
+
+
+body{
+    background-color: #0D0A95;
+}
+
+.logo{
+    position: absolute;
+    left: 0%;
+    top: 10%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+.button1 {
+    display: inline-block;
+    padding: 0.5em 3em;
+    border: 0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0.3em;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", semibold;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.15s;
+
+  }
+  
+.button1:hover {
+    color: silver;
+    border-color: silver;
+  }
+
+  .button1:active{
+      color: #BBBBBB;
+      border-color: #BBBBBB;
+  }
+}
